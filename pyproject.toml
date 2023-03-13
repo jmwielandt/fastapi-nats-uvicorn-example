@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "tp2"
+version = "0.1.0"
+description = ""
+authors = ["jose"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+toml = "^0.10.2"
+requests = "^2.28.2"
+fastapi = "^0.93.0"
+colorama = "^0.4.6"
+redis = "^4.5.1"
+rfc3339 = "^6.2"
+iso8601 = "^1.1.0"
+dynaconf = "^3.1.12"
+minio = "^7.1.13"
+bidict = "^0.22.1"
+pyjson5 = "^1.6.2"
+strenum = "^0.4.9"
+uvicorn = {extras = ["standard"], version = "^0.21.0"}
+nats-py = "^2.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+black = "^23.1.0"
+pep8-naming = "^0.13.3"
+snakeviz = "^2.1.1"
+mypy = "^1.1.1"
+ruff = "^0.0.254"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

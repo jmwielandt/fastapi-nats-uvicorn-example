@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 88
+select = C,E,F,W,B,B950,N
+extend-ignore = E203, E501, E402, F811, ET127, ET122, W503
+use-flake8-tabs = true
+indent-style = "space"
+tab-width = 4
+blank-lines-indent = "never"
+indent-tabs-def = 1
